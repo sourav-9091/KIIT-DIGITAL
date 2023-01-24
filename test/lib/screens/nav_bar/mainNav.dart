@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:moony_nav_bar/moony_nav_bar.dart';
+import 'package:test/screens/nav_bar/dashboard.dart';
 import 'package:test/screens/nav_bar/profile_page.dart';
 
 class MyApp extends StatefulWidget {
@@ -8,7 +9,7 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
-  Widget _screen1 = ProfilePage();
+  Widget _screen1 = HomeScreen();
   Widget _screen2 = ProfilePage();
   Widget _screen3 = ProfilePage();
   Widget _screen4 = ProfilePage();
